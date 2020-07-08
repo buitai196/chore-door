@@ -1,0 +1,59 @@
+body {
+  background: darkblue;
+  padding: 0px;
+  margin: 0px;
+}
+.header {
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+  background-color: #00ffff;
+  padding: 20px;
+}
+.title-row {
+  text-align: center;
+  margin: 10px auto;
+}
+#instructions-title {
+  display: inline;
+  font-size: 24px;
+  color: #00ffff;
+}
+.instructions-row {
+  width: 400px;
+  margin: 0px auto;
+}
+.table-number {
+  font-size: 26px;
+  color: #00ffff;
+  padding-right: 20px;
+}
+.table-text {
+  color: white;
+}
+.door-row {
+  text-align: center;
+  margin-top: 20px auto;
+}
+.door-frame {
+  padding-right: 5px;
+  cursor: pointer;
+}
+.start-row {
+  text-align: center;
+  margin: 10px auto;
+  width: 100px;
+  padding: 20px 10px;
+  background: orange;
+  cursor: pointer;
+}
+.numbox {
+  text-align: center;
+  margin: 10px auto;
+  width: 100px;
+  padding: 20px 10px;
+  background: rgb(4, 0, 255);
+  cursor: pointer;
+}
+.best{
+  padding-left:50px;
+}

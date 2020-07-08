@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chọn cửa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="images/logo.svg">
+    </div>
+    <!--Mô tả-->
+    <div class="title-row">
+        <img src="images/star.svg">
+        <span id="instructions-title">Mô tả</span>
+        <img src="images/star.svg">
+    </div>
+    <div class="instructions-row table-text">
+        <ol>
+            <li>Sau mỗi cánh cửa bí mật là sẽ chứa ngẫu nhiên 1 trong 3 hình ảnh cho trước là(space,beach,robot) </li>
+            <li>Nếu hình ảnh robot xuất hiện vào lần thứ 3 trong 3 lần mở cửa thì bạn chiến thắng.</li>
+            <li>Bạn sẽ theo dõi được số lần chiến thắng liên tiếp hiện tại và số lần chiến thắng liên tiếp nhiều nhất
+                trong lịch sử chơi của bạn</li>
+        </ol>
+    </div>
+    <!--Bắt đầu chơi-->
+    <div class="door-row">
+        <img id='door1' class="door-frame" src="images/closed_door.svg">
+        <img id="door2" class="door-frame" src="images/closed_door.svg">
+        <img id="door3" class="door-frame" src="images/closed_door.svg">
+    </div>
+    <div id="start" class="start-row">
+        Good luck!
+    </div>
+    <div class="table-text instructions-row">
+        <table>
+            <tr>
+                <td>Điểm só hiện tại:</td>
+                <td class="best">Số lần chiến thắng liên tục:</td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="numbox" id="current-streak">0</p>
+                </td>
+                <td>
+                    <p class="numbox" id="best-streak">0</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="PRF192x-As3-Opt1-taibdFX04697.js"></script>
+</body>
+</html>
+<!--tham khảo từ file hướng dẫn https://courses.funix.edu.vn/assets/courseware/v1/07635cf587643ae0e5add826f5b2f4bc/asset-v1:FUNiX+PRF192x_03_VN+2019_T10+type@asset+block/resources_asm3.rar -->
